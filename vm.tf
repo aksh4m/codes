@@ -14,7 +14,7 @@ resource "azurerm_virtual_machine" "main" {
   storage_image_reference {
     publisher = "OpenLogic"
     offer     = "CentOS"
-    sku       = "7.9"
+    sku       = "7.5"
     version   = "latest"
   }
   

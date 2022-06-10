@@ -17,3 +17,4 @@ variable "vm_size" {}
 variable "vm_osdisk_name" {}
 variable "vm_username" {}
 variable "vm_pass" {}
+variable "vnet_pubip_name" {}
